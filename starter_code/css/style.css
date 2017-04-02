@@ -213,9 +213,10 @@ aside a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  /*left: 50%;
-  transform: translateX(-50%);*/
-  margin-left: 405px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*margin-left: 405px;*/
+  
 }
 
 /*-----------------------------------
@@ -234,12 +235,12 @@ footer h4 {
   font-size: 24px;
   color: #f9e42e;
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
 }
 
-footer .colorwhite {
+footer small.color-white {
   font-weight: 600;
   font-size: 9px;
 }
@@ -255,7 +256,7 @@ footer img {
   float: left;
   position: absolute;
   top: 106px;
-  padding-left: 430px;
+  padding-left: 435px;
 }
 
 #facebook {
@@ -265,9 +266,9 @@ footer img {
 }
 
 small {
-  clear: both;
+ /* clear: both;*/
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
 }
