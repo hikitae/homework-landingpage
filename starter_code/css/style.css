@@ -132,14 +132,23 @@ header li a {
   line-height: 120%;
  }
 
-#main .text {
+#main .text, .moreContents {
   font-weight: 300;
   font-size: 24px;
   color: #606161;
   line-height: 130%;
  }
 
-#main .read-more {
+#main .readMore {
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: right;
+  color: #033048
+ }
+
+ #main .readLess {
   font-weight: 600;
   font-size: 24px;
   margin-top: 20px;
@@ -205,7 +214,7 @@ header li a {
   line-height: 110%;
 }
 
-.sidebar-content #learn-more {
+.sidebar-content #learnMore {
   font-weight: 600;
   font-size: 22px;
 }
